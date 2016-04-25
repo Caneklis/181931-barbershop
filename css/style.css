@@ -160,3 +160,13 @@ h1 {
     float: right;
     min-height: 90px;
 }
+
+.main-filters {
+    float: left;
+    width: 220px;
+}
+
+.content {
+    float: right;
+    width: 700px;
+}
