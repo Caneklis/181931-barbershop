@@ -9,6 +9,8 @@ body {
 }
 
 h1 {
+    float: left;
+    margin-bottom: 32px;
     font-size: 30px;
     line-height: 42px;
     color: #000000;
@@ -20,6 +22,7 @@ h2 {
     line-height: 30px;
     color: #000000;
     text-transform: uppercase;
+    
 }
 
 .main-header {
@@ -50,11 +53,6 @@ h2 {
     content: '';
     display: table;
     clear: both;
-}
-
-h1 {
-    float: left;
-    margin-bottom: 32px;
 }
 
 .breadcrumbs {
@@ -100,6 +98,7 @@ h1 {
 .product-description p {
     display: block;
     float: left;
+    margin-bottom: 44px;
 }
 
 .price-and-buy{
@@ -169,4 +168,26 @@ h1 {
 .content {
     float: right;
     width: 700px;
+    height: 680px;
+    margin-bottom: 49px;
+}
+
+.product {
+    float: left;
+    width: 220px;
+    height: 286px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.paginator {
+    float: left;
+    margin-top: 45px;
+    line-height: 43px;
 }
