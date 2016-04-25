@@ -1,5 +1,5 @@
 body {
-    font-family: "PT Sans Narrow" Arial sans-serif;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
     color: #000000;
@@ -20,4 +20,143 @@ h2 {
     line-height: 30px;
     color: #000000;
     text-transform: uppercase;
+}
+
+.main-header {
+    min-height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    
+}
+
+.container {
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.main-navigation {
+    float: left;
+    width: 780px;
+}
+
+.user-block {
+    float: right;
+    width: 140px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1 {
+    float: left;
+    margin-bottom: 32px;
+}
+
+.breadcrumbs {
+    float: left;
+    margin-bottom: 50px;
+}
+
+.main-content {
+    float: left;
+    width: 940px;
+    height: 690px;
+}
+
+.pictures-of-products {
+    float: left;
+    width: 470px;
+    height: 680px;
+    margin-bottom: 10px;
+}
+.main-picture {
+    float: left
+    width: 460;
+    height: 500px;
+}
+
+.small-pictures {
+    float: left;
+}
+
+.product-description {
+    float: right;
+    width: 390px;
+}
+.availability {
+    float: left;
+}
+
+.code {
+    float: right;
+    margin-right: 10px;    
+}
+
+.product-description p {
+    display: block;
+    float: left;
+}
+
+.price-and-buy{
+    float: left;
+    
+}
+
+.product-price {
+    float: left;
+    width: 109px;
+    height: 43px;
+}
+
+.product-buy {
+    display: inline-block;
+    float: left;
+    width: 78px;
+    height: 43px;
+    margin: 0;
+}
+
+.product-description h2 {
+    float: left;
+    margin: 0;
+}
+
+.product-description li {
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+.main-footer {
+    width: 940px;
+    height: 189px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-contacts {
+    float: left;
+    min-height: 90px;
+}
+
+.footer-social {
+    float: left;
+    margin-left: 80px;
+    min-height: 90px;
+}
+
+.footer-social a {
+    display: inline-block;
+    float: left;
+}
+
+.footer-copyright {
+    float: right;
+    min-height: 90px;
 }
